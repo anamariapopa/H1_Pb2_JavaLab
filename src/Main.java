@@ -14,5 +14,9 @@ public class Main {
         //3
         int maxSum = ArrayCalculator.findMaxSum(array);
         System.out.println("Max sum = " + maxSum);
+
+        //4
+        int minSum = ArrayCalculator.findMinSum(array);
+        System.out.println("Min sum = " + minSum);
     }
 }

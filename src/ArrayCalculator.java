@@ -32,5 +32,13 @@ public class ArrayCalculator {
         return maxSum;
     }
 
-
+    //4
+    public static int findMinSum(int[] array) {
+        int minSum = 0;
+        int max = findMax(array);
+        for ( int i = 0; i < array.length; i++ )
+            minSum += array[i];
+        minSum -= max;
+        return minSum;
+    }
 }
